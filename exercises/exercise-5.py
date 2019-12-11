@@ -17,8 +17,7 @@ for num in range(0,51):
     else:
         seq.append(seq[num-1] + seq[num-2]) 
 
-print(f'{seq}')
 
-print ([list((i, seq[i])) for i in range(len(seq))]) 
+print ([list((i, seq[i])) for i in range(len(seq))])
 
 # Hint: The next number is found by adding the two numbers before it
